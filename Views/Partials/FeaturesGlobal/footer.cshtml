@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.SiteSettings>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    Layout = null;
+}
+
+<footer b-ss9879bxrr class="bg-white footer text-muted">
+    <div b-ss9879bxrr class="container">
+        <p>Särskilt tack också till <a href="https://cdn.discordapp.com/attachments/1027903841062101032/1171458938110214144/Rick.png?ex=655cc127&is=654a4c27&hm=5fd558e94bc06613ccc10d75a4e90f04c47f050fb2c69d2606bc3b933182347d&">Rickard</a> och <a href="https://cdn.discordapp.com/attachments/1027903841062101032/1171458809223450715/Phil.png?ex=655cc108&is=654a4c08&hm=4c30d30f49f1bcf4f900a1f5e903f0d9c9ee8f4eab2bab9d04aa2fc5dc1cd19d&">Philip</a></p>
+        <p>&copy; @DateTime.Now.Year - @Model.Copyright</p>
+    </div>
+</footer>
